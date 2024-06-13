@@ -1,0 +1,25 @@
+{
+  "name": "wolf-theme",
+  "displayName": "wolf-theme",
+  "description": "",
+  "version": "0.0.0",
+  "engines": {
+    "vscode": "1.90.0"
+  },
+  "scripts": {
+	"build": "npx vsce package"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Wolf Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wolf-color-theme.json"
+      }
+    ]
+  },
+  "repository": {}
+}
